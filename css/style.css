@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    font-family: 'Roboto-Regular';
+    background: #0c1322;
+}
+header{
+    background: #334155;
+}
+header .navbar {
+    padding: .5rem 0;
+}
+
+header nav.navbar .navbar-brand {
+    color: #e0e0e0;
+}
+.heading{
+    color: #e0e0e0;
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    color: #e0e0e0;
+    padding-bottom: 2rem;
+}
+section.todo-outer {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+
+section.todo-outer h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.todo-inner {
+    width: 100%;
+    float: left;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 9, 0, 0.12);
+    background: #202b3f;
+    border-radius: 5px;
+    border: 1px solid hsl(242, 62%, 72%);
+    font-size: 19px;
+    font-family: 'Ubuntu',sans-serif;
+  
+}
+.table-rows{
+    background: #0c1322;
+    border: none;
+    color: #fff;
+    font-family: 'Ubuntu',sans-serif;
+}
+i{
+    padding: 12px;
+}
+td,th{
+    padding: 12px;
+    border: none;
+    font-family: 'Ubuntu',sans-serif;
+    
+}
+table tr td button {
+    background: #334155;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.btn-add-task{
+    background-color: #0ea5e9;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px;
+}
+.btn-add-task:focus{
+    outline: none;
+    cursor: pointer;
+}
+.btn-delete-task{
+    
+    background: #be123c;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+}
+.btn-delete-task:focus{
+    outline: none;
+}
+.text-success-complete{
+    padding-right: 5px;
+    background-color: #4f46e5;
+}
+.text-success-complete:focus{
+    outline: none;
+}
+.button-action{
+    padding-right: 5px;
+}
+.button-action:focus{
+    outline: none;
+}
+.delete-btn{
+background-color: #f43f5e;
+}
+.delete-btn:focus{
+    outline: none;
+}
+.add-task-bar{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background: #e0e0e0;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #1f1f1f;
+}
+.search-task{
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #1f1f1f;
+    width: 300px;
+}
+.edit-btn{
+    background-color: #8b5cf6;
+}
+.save-task-btn{
+    color: #fff;
+    background-color: #1d4ed8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.save-task-btn:focus{
+    outline: none;
+}
+.footer{
+    margin-top: 5rem;
+   margin-bottom: 0;
+   text-align: center;
+    color: #797676;
+    
+}
+.fa-tasks{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.fa-search{
+    padding: 13px;
+    background: #c7c6c6;
+    color: #202b3f;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: #0c1322;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #606de4;
+    transition: .4s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #383f7c;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Application</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./favicon/font-3/favicon.ico" type="image/x-icon">
+    <style>
+        .form-control:focus {
+            border: 1px solid rgb(17, 155, 17);
+        }
+    </style>
+</head>
+
+<body>
+    <header class=" mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar justify-content-between">
+                        <a class="navbar-brand"><i class="fa fa-table"></i>Todo List app</a>
+                        <form class="form-inline">
+                            <i class="fa fa-search"></i> <input style="box-shadow:none" class="search-task mr-sm-2" type="search" placeholder="Search Task Here" aria-label="Search" id="searchtextbox" />
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="todo-outer">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-10 col-md-8">
+                    <h1 class="heading">Todo List Application</h1>
+                    <p class="paragraph">Manage your task here</p>
+                    <div class="todo-inner">
+                        <div class="form-row">
+                            <div class="col-9 mr-sm-2">
+                                <input type="text" style="box-shadow: none;" class="add-task-bar" placeholder="Enter your task" id="addtaskinput" />
+                                <input type="hidden" id="saveindex">
+                            </div>
+                            <button type="button" class=" btn-add-task mr-sm-2" id="addtaskbtn">
+                Add Task
+              </button>
+                            <button type="button" class="save-task-btn mr-sm-2" id="savetaskbtn" style="display: none;">
+                Save Task
+              </button>
+                            <button type="button" id="deleteallbtn" class="btn-delete-task delete">
+                Delete All
+              </button>
+                        </div>
+                        <div class="to-do-output">
+                            <table class="table table-striped mt-3 mb-0" id="addedtasklist">
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <p class="footer">&#169; Ishimwe Jean Gloire 2023</p>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
